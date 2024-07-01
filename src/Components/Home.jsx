@@ -1,25 +1,16 @@
 import React from "react";
-import AppBar from "@mui/material/AppBar";
-import Box from "@mui/material/Box";
-import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
-import Button from "@mui/material/Button";
-import IconButton from "@mui/material/IconButton";
-import MenuIcon from "@mui/icons-material/Menu";
-import Header from "./Header";
 
 function Home() {
   return (
     <div
-      className={`w-full h-[100vh] flex flex-col items-center bg-blue-100 top-0 -mt-[3.5rem]`}
+      className={`w-full h-[100vh] flex flex-col items-center  top-0 -mt-[3.5rem]`}
       style={{
-        backgroundImage: `url(${process.env.PUBLIC_URL}images/baranti.webp)`,
+        backgroundImage: `url(${process.env.PUBLIC_URL}/images/baranti.webp)`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundPosition: "center"
       }}
     >
-      {/* <Header /> */}
       <div className="h-full flex flex-col gap-7 justify-center items-center mt-5">
         <p className="text-2xl text-slate-100 opacity-90 backdrop-blur-sm px-10">
           Simple <span className="text-red-700">-</span> Unique{" "}
